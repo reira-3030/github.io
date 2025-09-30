@@ -121,8 +121,3 @@
   document.getElementById('fire-sound').addEventListener('click', () => {
     showFakeNotice({ title: "音付き通知", message: "ピン！（効果音）", iconEmoji: "🔔" });
   });
-
-  // もし安全な別文言に変えたいなら、上の safeNotice.message を書き換えてね。
-</script>
-</body>
-</html>
